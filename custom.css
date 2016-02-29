@@ -1,0 +1,80 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: darkgrey;
+    font-family: Sans-serif;
+}
+a h1{
+    font-family: myFirstFont !important;
+    font-size: 10em;
+    padding-top: 15px;
+    padding-bottom: 150px;
+    letter-spacing: 10px; 
+    
+}
+
+.menu a{
+    color: white;
+}
+.menu a:hover{
+    color: black;
+}
+
+#index div{
+    margin-bottom: 50px;
+}
+
+.menu{
+    background: black;
+    width: 400px;
+    height: 100vh;/***100% of height of the viewport***/
+    position: fixed;
+    right:-400; /***temporarily hide custom menu bar***/
+    z-index: 1000px;
+    opacity: 0.8;
+    padding-top: 300px;
+}
+
+
+@font-face{
+    font-family: myFirstFont;
+    src: url(AngelicWar.ttf);
+}
+
+    
+#work .bg-orange{
+    background-color: black !important;
+    padding: 30px !important;
+    margin: 40px 15px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+<style>
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+</style>
+H2 {
+    font-family: Helvetica;
+    postion: fixed;
+    text-align: center;
+    background: black;
+    font-color: white;
+}
