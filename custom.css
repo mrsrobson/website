@@ -78,3 +78,9 @@ H2 {
     background: black;
     font-color: white;
 }
+/*change the padding design on mobile sites*/
+@media (max-width: 767.99999999px){
+    div{
+        padding: 10px 40px;
+        
+}
